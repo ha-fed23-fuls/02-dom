@@ -97,6 +97,7 @@ button:focus-visible {
 }
 
 
+/* Övning 2.2 */
 .color-button {
 	background-color: rgb(239, 105, 223);
 
@@ -107,3 +108,30 @@ button:focus-visible {
 /* .color-button.pretty {
 	background-color: rgb(114, 196, 126);
 } */
+
+/* Övning 2.4 */
+.row {display: flex; flex-direction: row; margin-top: 1em;}
+.lights {
+	display: inline-flex;
+	flex-direction: column;
+	border: 2px solid black;
+	background: darkgray;
+	padding: 0.25em;
+	margin: 0.3em;
+}
+.lights > * {
+	width: 2em;
+	height: 2em;
+	border-radius: 100%;
+	border: 1px solid black;
+	margin: 0.25em;
+}
+.top.on {
+	background-color: #F13C1E;
+}
+.middle.on {
+	background-color: #E7D81D;
+}
+.bottom.on {
+	background-color: #37A11D;
+}
