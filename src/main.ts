@@ -1,4 +1,5 @@
 import './style.css'
+import { setupColorButton } from './ex2.ts'
 
 // 1 Skapa en webbsida med ett button- och ett p-element. När man klickar på knappen ska texten i p-elementet uppdateras, så att den visar hur många gånger man har klickat på knappen:
 // <p class="info"> Du har klickat 25 gånger. </p>
@@ -26,3 +27,5 @@ if( countButton && infoPara ) {
 } else {
 	console.log('Oh noes vi hittar inte DOM-elementen!')
 }
+
+setupColorButton()

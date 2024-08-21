@@ -95,3 +95,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.color-button {
+	background-color: rgb(239, 105, 223);
+
+	&.pretty {
+		background-color: rgb(114, 196, 126);
+	}
+}
+/* .color-button.pretty {
+	background-color: rgb(114, 196, 126);
+} */
